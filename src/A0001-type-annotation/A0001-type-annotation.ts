@@ -5,7 +5,7 @@ let nome: string = 'Silas';
 let idade: number = 18;
 let adulto: boolean = true;
 let simbolo: symbol = Symbol('qualquer-symbol');
-let big: bigint = 10n;
+//let big: bigint = 10n;
 
 
 // Arrays
@@ -22,7 +22,7 @@ let pessoa: {nome: string, idade: number, adulto?: boolean} = {
 
 // Funções
 
-function soma(x: number, y: number) {
+function soma (x: number, y: number) {
   return x + y;
 }
 
